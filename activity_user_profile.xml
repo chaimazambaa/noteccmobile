@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Title or Welcome Message -->
+    <TextView
+        android:id="@+id/textView_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Button: Ajout Abs -->
+    <Button
+        android:id="@+id/button_add_absence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajout Abs"
+        android:layout_below="@id/textView_welcome"
+        android:layout_marginTop="20dp" />
+
+    <!-- Button: Les Abscences -->
+    <Button
+        android:id="@+id/button_les_absences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Les Abscences"
+        android:layout_below="@id/button_add_absence"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
